@@ -1,39 +1,40 @@
-# EKAI — Engineering Knowledge & Intelligence Agent
+# 🤖 EKAI Agent
 
-EKAI is a decision-first engineering strategist and project critic designed to
-evaluate project ideas and critique completed projects with senior-level judgment.
+EKAI is a lightweight **AI-powered agent built using Streamlit**, designed for local experimentation, learning, and rapid prototyping.  
+It provides a clean UI and modular structure, making it easy to understand, run, and extend.
 
-The system separates deterministic logic from optional AI explanations to ensure
-reliability, clarity, and graceful failure handling.
+---
 
-## Features
+## 🚀 Features
+- Interactive **Streamlit web interface**
+- Clean and modular project structure
+- Environment variable support using `.env`
+- Beginner-friendly setup
+- Easy local execution
 
-### 🧠 Idea Evaluation
-- Build / Pivot / Kill verdict
-- Viability, Differentiation, Resume Impact scores
-- Clear decision rationale
-- Actionable next steps
-- Optional AI explanation (fails safely if unavailable)
+---
 
-### 🔍 Project Critique
-- Overall project score with confidence level
-- Code quality, architecture, ML depth, documentation scoring
-- Strengths, weaknesses, and improvement suggestions
-- Optional AI explanation layer
+## 📁 Project Structure
 
-## Architecture Principles
-- Rule-based core logic (deterministic and testable)
-- AI used only for explanation, not decision-making
-- Graceful degradation when AI is unavailable
-- Modular and production-safe design
+---
 
-## Tech Stack
-- Python
-- Streamlit
-- Modular architecture
-- OpenAI-compatible LLM (optional)
+## 🛠️ Requirements
+- **Python 3.9 or higher**
+- Internet connection (to install dependencies)
 
-## How to Run
+---
+
+## ⚙️ How to Run EKAI (IMPORTANT)
+
+### 1️⃣ Extract the ZIP
+Download the repository ZIP from GitHub and **extract it**.
+
+---
+
+### 2️⃣ Install dependencies
+Open **Command Prompt / Terminal** inside the EKAI folder and run:
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+s
